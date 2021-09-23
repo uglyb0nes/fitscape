@@ -8,10 +8,15 @@ const api2 = require('./routes/homeRoutes.js');
 const PORT = process.env.PORT || 3001;
 
 mongoose.set('debug', true);
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/workoutDb', {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-});
+mongoose.connect(
+    process.env.MONGODB_URI || 'mongodb://localhost/fit-scape',
+    {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+      useCreateIndex: true,
+      useFindAndModify: false
+    }
+  );
 
 const app = express();
 
