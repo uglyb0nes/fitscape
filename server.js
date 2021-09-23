@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 3001;
 
 mongoose.set('debug', true);
 mongoose.connect(
-    process.env.MONGODB_URI || 'mongodb://localhost/fit-scape',
+    process.env.MONGODB_URI || 'mongodb://localhost/WorkoutDb',
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
