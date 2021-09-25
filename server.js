@@ -5,7 +5,7 @@ const morgan = require('morgan');
 const api1 = require('./routes/workoutRoutes.js');
 const api2 = require('./routes/homeRoutes.js');
 
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3001
 
 mongoose.set('debug', true);
 mongoose.connect(
