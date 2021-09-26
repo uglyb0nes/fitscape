@@ -5,7 +5,7 @@
 ![Screenshot](https://github.com/uglyb0nes/fitscape/blob/master/public/images/fitnesstracker.png)
 ![Screenshot](https://github.com/uglyb0nes/fitscape/blob/master/public/images/dashboard.png)
 
-### [Live on Heroku](https://git.heroku.com/fit-scape.git)
+### [Live on Heroku](https://fit-scape.herokuapp.com/?id=614fb9a4030fdc30e6af2f8d)
 
 ## Table of Contents:
 
