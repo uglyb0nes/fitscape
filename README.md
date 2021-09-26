@@ -22,8 +22,7 @@ A simple web application to track your workout progress!
 Clone the repository to your local machine, install the required packages, and run the server.
 
 ## Usage
-Navigate to https://git.heroku.com/fit-scape.git
-
+Navigate to (https://fit-scape.herokuapp.com/?id=614fb9a4030fdc30e6af2f8d)
 ## Questions
 Feel free to reach out to me if you have questions!<br>
 Github: [https://github.com/uglyb0nes](https://github.com/uglyb0nes)<br>
